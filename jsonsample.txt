@@ -1,0 +1,30 @@
+Json sample for new campaign:
+
+{
+  "salesforceNumber" : "OPP-0000005353",
+  "accountId" : 975,
+  "name" : "BMW-$10k CPC",
+  "budget" : 10000.00,
+  "startDate" : "2014-09-01T00:00:00.000Z",
+  "endDate" : "2014-09-30T00:00:00.000Z",
+  "primaryCategory" : 8005,
+  "users" : {
+    "AM" : 767,
+    "AE" : 767,
+    "CM" : 767
+  },
+  "adomain" : "domain.com",
+  "billingSource" : 2,
+  "billingType" : "Actual",
+  "budgetType" : 0,
+  "basecampNumber" : "1234",
+  "svlVendors" : [ "Placed", "Usamp" ]
+}
+
+New campaign endpoint:
+
+https://api.xad.com/{accesscode}}/account/{accountId}}/campaigns
+
+Campaign update endpoint:
+
+https://api.xad.com/{accesscode}}/account/{accountId}}/campaign/{campaignId}
